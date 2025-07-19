@@ -1,12 +1,17 @@
 [
     {
-        "Opis": "Tlocrt prizemlja",
-        "Polje": "D10",
-        "Dimenzije u pixelima": [300, 200]
+        "Opis": "Naslovnica",
+        "Polje": "C9",
+        "Dimenzije u pixelima": [596, 448]
     },
     {
-        "Opis": "Fotografija pročelja",
-        "Polje": "F20",
-        "Dimenzije u pixelima": [400, 300]
+        "Opis": "Mikrolokacija",
+        "Polje": "B263",
+        "Dimenzije u pixelima": [672, 368]
+    },
+    {
+        "Opis": "Katastar",
+        "Polje": "B280",
+        "Dimenzije u pixelima": [672, 368]
     }
 ]

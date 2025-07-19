@@ -1,7 +1,7 @@
 [
     {
         "Opis": "Dokumentacija za procjenu",
-        "Polja": ["B10", "D30", "F50"],
-        "Dimenzije u pixelima": [300, 400]
+        "Polja": ["B896", "B938", "B981","B1024","B1067","B1110","B1153","B1196","B1239","B1282","B1325","B1369","B1412","B1455","B1498","B1541","B1583"],
+        "Dimenzije u pixelima": [635, 800]
     }
 ]

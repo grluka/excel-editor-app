@@ -1,7 +1,7 @@
 [
     {
-        "Opis": "Višestruke slike za usporedbu",
-        "Polja": ["D10", "F30", "G50"],
-        "Dimenzije u pixelima": [300, 200]
+        "Opis": "Fotodokumentacija",
+        "Polja": ["B812", "T812","B822", "T822","B832", "T832","B842", "T842","B852", "T852","B862", "T862","B872", "T872","B882", "T882"],
+        "Dimenzije u pixelima": [269, 201]
     }
 ]

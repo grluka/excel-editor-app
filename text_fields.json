@@ -1,10 +1,119 @@
 [
     {
-        "Opis": "Naziv projekta",
-        "Polje": "B2"
+        "Opis": "Broj elaborata XXX/XXXX",
+        "Polje": "AA2"
     },
     {
-        "Opis": "Lokacija projekta",
-        "Polje": "B3"
+        "Opis": "Nekretnina",
+        "Polje": "M30"
+    },
+    {
+        "Opis": "Lokacija (adresa)",
+        "Polje": "M32"
+    },
+    {
+        "Opis": "Naručitelj",
+        "Polje": "M34"
+    },
+    {
+        "Opis": "Vlasnik",
+        "Polje": "M36"
+    },
+    {
+        "Opis": "Datum (očevida)",
+        "Polje": "Q41"
+    },
+    {
+        "Opis": "Legalitet (DA/NE/DA vidi napomenu)",
+        "Polje": "P58"
+    },
+    {
+        "Opis": "Pozitivna zabilježba (DA/NE) ",
+        "Polje": "P59"
+    },
+    {
+        "Opis": "Mogućnost upisa pozitivne zabilježbe ",
+        "Polje": "P60"
+    },
+    {
+        "Opis": "Prometni pristup (DA, NE,DA u naravi) ",
+        "Polje": "P61"
+    },
+    {
+        "Opis": "En.cert ",
+        "Polje": "P62"
+    },
+    {
+        "Opis": "Opis nekretnine ",
+        "Polje": "G197"
+    },
+    {
+        "Opis": "Opis lokacije (mikro) ",
+        "Polje": "A261"
+    },
+    {
+        "Opis": "k.č., k.o. ",
+        "Polje": "R279"
+    },
+    {
+        "Opis": "zk k.o.",
+        "Polje": "N301"
+    },
+    {
+        "Opis": "ZK uložak",
+        "Polje": "N302"
+    },
+    {
+        "Opis": "Vlasništvo (E-12; 1/1, 12342)",
+        "Polje": "N303"
+    },
+    {
+        "Opis": "Č.zem",
+        "Polje": "N304"
+    },
+    {
+        "Opis": "Datum izdavanja vl. lista",
+        "Polje": "N305"
+    },
+    {
+        "Opis": "Posjedovnica ZK ",
+        "Polje": "B308"
+    },
+    {
+        "Opis": "Vlastovnica ZK ",
+        "Polje": "B311"
+    },
+    {
+        "Opis": "Teretovnica ZK ",
+        "Polje": "B314"
+    },
+    {
+        "Opis": "Priložena dokumentacija iz katastra",
+        "Polje": "B319"
+    },
+    {
+        "Opis": "Priložena dokumentacija o gradnji",
+        "Polje": "B324"
+    },
+    {
+        "Opis": "Usklađenost ZK i katastra",
+        "Polje": "B337"
+    },
+    {
+        "Opis": "Usklađenost zk i stanja u naravi",
+        "Polje": "B340"
+    },
+    {
+        "Opis": "Pristup javno prometnoj površini",
+        "Polje": "B343"
+    },
+    {
+        "Opis": "Legalitet nekretnine",
+        "Polje": "B346"
+    },
+    {
+        "Opis": "Upisa pozitivne zabilježbe",
+        "Polje": "B349"
     }
+
 ]

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Excel Uređivač</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+        }
+        form {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        input[type="text"],
+        input[type="file"] {
+            width: 100%;
+            padding: 12px 14px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fdfdfd;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 14px 24px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: block;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+        .form-group {
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Excel Uređivač</h1>
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label>Učitaj Excel datoteku:</label>
+            <input type="file" name="excel_file" required>
+        </div>
+
+        {% for field in text_fields %}
+        <div class="form-group">
+            <label>{{ field['Opis'] }}:</label>
+            <input type="text" name="{{ field['Polje'] }}">
+        </div>
+        {% endfor %}
+
+        {% for image in image_fields %}
+        <div class="form-group">
+            <label>{{ image['Opis'] }}:</label>
+            <input type="file" name="{{ image['Polje'] }}">
+        </div>
+        {% endfor %}
+
+        {% for group in multiple_images %}
+        <div class="form-group">
+            <label>{{ group['Opis'] }} (više slika):</label>
+            <input type="file" name="{{ group['Opis'] }}" multiple>
+        </div>
+        {% endfor %}
+
+        {% for combo in combined_uploads %}
+        <div class="form-group">
+            <label>{{ combo['Opis'] }} (PDF ili slike):</label>
+            <input type="file" name="{{ combo['Opis'] }}" multiple>
+        </div>
+        {% endfor %}
+
+        <input type="submit" value="Generiraj novi Excel">
+    </form>
+</body>
+</html>

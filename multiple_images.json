@@ -1,0 +1,7 @@
+[
+    {
+        "Opis": "Višestruke slike za usporedbu",
+        "Polja": ["D10", "F30", "G50"],
+        "Dimenzije u pixelima": [300, 200]
+    }
+]

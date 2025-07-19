@@ -1,0 +1,7 @@
+[
+    {
+        "Opis": "Dokumentacija za procjenu",
+        "Polja": ["B10", "D30", "F50"],
+        "Dimenzije u pixelima": [300, 400]
+    }
+]
